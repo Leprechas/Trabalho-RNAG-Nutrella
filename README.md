@@ -17,7 +17,6 @@ Este repositório de GitHub é dedicado para a disciplina de Redes Neurais e Alg
  - [Barbara Perez](https://github.com/barbaraperez) - 220040
  - [Sarah Freire](https://github.com/Sarah-Freire) - 220043
  - [Vitor Barelli](https://github.com/Leprechas) - 220072
- - [Ygor Ruas](https://github.com/YgorRuas) - 220066
 
 <details>
     
