@@ -72,3 +72,77 @@ Desse modo, as seguintes pastas compõem esse repositório:
 
 
 ![Logo do GitHub](https://github.com/Sarah-Freire/Trabalho-RNAG/raw/main/A1.png)
+
+![GitHub Logo](https://github.com/Sarah-Freire/Trabalho-RNAG/raw/main/A2.png)
+
+![LICENSE](https://img.shields.io/badge/LICENSE-GNU%20General%20Public%20License%20v3.0-red)
+
+<h1 align="center"> Nutrella: The Genetic Algorithm That Designs Your Diet! </h1>
+
+Nutrella is a genetic algorithm based on the constrained knapsack problem. Our algorithm utilizes a Brazilian food database to build an optimized diet for your well-being. This optimization algorithm aims to maximize the consumer's nutrition by selecting the most nutritious foods, while always respecting the caloric limit the individual should consume.
+
+Don’t fall into a routine—use Nutrella.
+
+With Nutrella, every time you run the code, you receive a new diet.
+
+## Welcome!
+
+This GitHub repository is dedicated to the Neural Networks and Genetic Algorithms course from the 3rd semester of the Bachelor’s in Science and Technology at Ilum School of Science, a college within the National Center for Research in Energy and Materials (CNPEM), taught by Prof. [Cassar. Daniel](https://github.com/drcassar). The project is the final assignment of the course. Below is an explanation of the project and the contributors:
+
+- [Barbara Perez](https://github.com/barbaraperez) - 220040  
+- [Sarah Freire](https://github.com/Sarah-Freire) - 220043  
+- [Vitor Barelli](https://github.com/Leprechas) - 220072
+
+<details>
+<summary>What is Nutrella and the reason for its creation :orange:</summary>
+    
+<p align="justify">
+Nutrella is the name given to this code, which seeks a reasonable diet for the user. Thus, by using Genetic Algorithms to generate the diet, and by having a dataframe containing a list of various foods common in Brazilian cuisine, the difference from other competitors is that here, every time you interact with the code, a new diet will be generated. This avoids repetitive meals while maintaining quality choices, provided by the best individuals (foods) found through the algorithm's search.
+
+In addition, it was created with the scientific goal of providing a diet with accessible foods for the population, tailored to each user’s objectives.
+</p>
+</details>
+
+<details>
+<summary>How it was done 🥗</summary>
+    
+<p align="justify">
+The code is an adaptation of the genetic algorithm for the classic knapsack problem. Therefore, the code’s operation is similar and is based on finding the best possible solution given the options. In this case, it seeks a diet close to the "ideal" caloric number returned by previous queries.
+
+Hence, the main change lies in the objective function. In addition to searching for a diet with good caloric values, it also seeks the best possible nutritional indexes, given the constraints. To better understand the structure of a genetic algorithm and each term used during the code steps, we have the glossary below:
+
+- __*Individuals*__: In genetic algorithms, individuals are potential solutions to a problem. Each individual is represented by a chromosome containing genes that encode specific characteristics or traits.
+
+- __*Population*__: A population is a collection of individuals that are evaluated and evolved over time. The population represents the current generation of potential solutions.
+
+- __*Gene*__: A gene is a specific section of a chromosome that encodes a particular trait or characteristic. For example, in a genetic algorithm optimizing an airplane wing design, a gene might represent the angle of the wing’s inclination.
+
+- __*Chromosomes*__: A chromosome is a sequence of genes representing an individual solution to the problem at hand. In binary-encoded genetic algorithms, chromosomes are usually represented as sequences of 0s and 1s.
+
+- __*Generation*__: A generation refers to an iteration of the genetic algorithm. In each generation, the fitness function evaluates the population's individuals, and new individuals are created through selection, crossover, and mutation.
+
+- __*Objective Function*__: The fitness function is used to evaluate how well each individual in the population solves the problem in question. It assigns a fitness score to each individual based on how close its solution is to optimal.
+
+- __*Selection*__: Selection is the process by which individuals with higher fitness scores are more likely to be chosen for reproduction (i.e., to pass their genes on) than those with lower fitness scores.
+
+- __*Crossover*__: Crossover involves combining two parent chromosomes to create one or more offspring chromosomes. This process can create new gene combinations that lead to better solutions.
+
+- __*Mutation*__: Mutation involves randomly altering one or more genes in an individual’s chromosome. This process can introduce new traits into the population, potentially leading to better solutions.
+</p>
+</details>
+
+## Main Files
+
+<p align="justify">Guide to navigating the Nutrella Git repository:</p>
+
+The following folders make up this repository:
+
+- [Alimentos - Calorias.xlsx](https://github.com/Sarah-Freire/Trabalho-RNAG/blob/main/Alimentos%20-%20Calorias.xlsx): An Excel table that allows you to find foods along with their calorie data and nutritional density.
+- [Alimentos.xlsx](https://github.com/Sarah-Freire/Trabalho-RNAG/blob/main/Alimentos.xlsx): An Excel table containing foods and their data on calories, protein, lipids, carbohydrates, and dietary fiber.
+- [Tratando dados.ipynb](https://github.com/Sarah-Freire/Trabalho-RNAG/blob/main/Tratando%20dados.ipynb): A notebook that uses the "Alimentos.xlsx" file and modifies its data to produce nutritional density data, generating the "Alimentos - Calorias.xlsx" file.
+- [LICENSE](https://github.com/Sarah-Freire/Trabalho-RNAG/blob/main/LICENSE): Presents the license used in the repository.
+- [README.md](https://github.com/YgorRuas/Redes_Neuro_Anais/blob/main/README.md): Repository guide.
+- [funcoes.py](https://github.com/Sarah-Freire/Trabalho-RNAG/blob/main/funcoes.py): A Python file containing all the functions used throughout the project.
+- [trabalho_rnag.ipynb](https://github.com/Sarah-Freire/Trabalho-RNAG/blob/main/trabalho_rnag.ipynb): A notebook where the project was developed.
+
+![GitHub Logo](https://github.com/Sarah-Freire/Trabalho-RNAG/raw/main/A1.png)
